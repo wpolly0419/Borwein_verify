@@ -1,3 +1,3 @@
 # Borwein_verify
 
-Run verify n to check the Borwein conjecture up to n.
+Run verify1 n to check the Borwein conjecture up to n.
