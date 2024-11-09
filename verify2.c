@@ -13,11 +13,8 @@ int main(int argc, char *argv[]){
   srand (time(NULL));
   time_t start, end;
   double time_elapsed;
-  if(argc>1){
-      n_max=atoi(argv[1]);
-  } else {
-      n_max=1000;
-  }
+  n_max=atoi(argv[1]);
+  m_max=atoi(argv[2]);
   time(&start);
   a=(mpz_t *)malloc((m_max+1)*sizeof(mpz_t));
   for(i=0;i<=m_max;i++){
